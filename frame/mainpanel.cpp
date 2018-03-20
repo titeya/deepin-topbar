@@ -196,10 +196,10 @@ void MainPanel::paintEvent(QPaintEvent *event)
 
     QPainter painter(this);
     QPen pen(painter.pen());
-    pen.setBrush(QColor(0, 0, 0, .7 * 255));
+    pen.setBrush(QColor(0, 0, 0, .8 * 255));
     pen.setWidth(2);
     painter.setPen(pen);
-    painter.drawLine(QPoint(0, TOPHEIGHT), QPoint(width(), TOPHEIGHT));
+    // painter.drawLine(QPoint(0, TOPHEIGHT), QPoint(width(), TOPHEIGHT));
 }
 
 void MainPanel::setDefaultColor(const DefaultColor &defaultColor)
