@@ -14,7 +14,7 @@ plugins/*.so.*
 *.lai
 *.la
 *.a
-
+Build/
 build*/
 *.pro.user*
 *.DS_Store

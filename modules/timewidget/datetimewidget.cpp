@@ -27,7 +27,7 @@ DateTimeWidget::DateTimeWidget(QWidget *parent)
 
     setLayout(layout);
 
-    m_format = "hh:mm";
+    m_format = "hh:mm:ss";
 }
 
 DateTimeWidget::~DateTimeWidget() {
