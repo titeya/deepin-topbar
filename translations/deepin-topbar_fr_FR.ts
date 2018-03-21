@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja_JP" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="fr_FR">
 <context>
     <name>dtb::datetime::DateTimePlugin</name>
     <message>
@@ -14,7 +16,7 @@
     <message>
         <location filename="../modules/timewidget/datetimeplugin.cpp" line="69"/>
         <source>Time Format</source>
-        <translation>Format de l'heure</translation>
+        <translation>Format de l&apos;heure</translation>
     </message>
     <message>
         <location filename="../modules/timewidget/datetimeplugin.cpp" line="74"/>
@@ -27,7 +29,10 @@
     <message numerus="yes">
         <location filename="../modules/indicator/View/appstoreaction.cpp" line="108"/>
         <source>%n update(s)</source>
-        <translation><numerusform>%n Mises à jours</numerusform></translation>
+        <translation type="unfinished">
+            <numerusform>%n mise à jour</numerusform>
+            <numerusform>%n mises à jour</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -81,17 +86,17 @@
     <message>
         <location filename="../modules/network/item/applet/refreshaction.cpp" line="16"/>
         <source>List state: %1</source>
-        <translation>最終状態：%1</translation>
+        <translation type="unfinished">Recherche réseaux: %1</translation>
     </message>
     <message>
         <location filename="../modules/network/item/applet/refreshaction.cpp" line="16"/>
         <source>Refreshing...</source>
-        <translation>Actualisation...</translation>
+        <translation type="unfinished">En cours...</translation>
     </message>
     <message>
         <location filename="../modules/network/item/applet/refreshaction.cpp" line="16"/>
         <source>No refresh</source>
-        <translation>更新なし</translation>
+        <translation type="unfinished">Terminé</translation>
     </message>
 </context>
 <context>
@@ -99,7 +104,7 @@
     <message>
         <location filename="../modules/network/item/wireditem.cpp" line="27"/>
         <source>Open Network Preferences...</source>
-        <translation>Préférence réseauく</translation>
+        <translation type="unfinished">Ouvrir préférences réseau...</translation>
     </message>
 </context>
 <context>
@@ -107,17 +112,17 @@
     <message>
         <location filename="../modules/network/item/wirelessitem.cpp" line="89"/>
         <source>Join Other Network...</source>
-        <translation>Connecter un nouveau réseau</translation>
+        <translation type="unfinished">Joindre un autre réseau</translation>
     </message>
     <message>
         <location filename="../modules/network/item/wirelessitem.cpp" line="90"/>
         <source>Open Network Preferences...</source>
-        <translation>Préférences réseau</translation>
+        <translation type="unfinished">Ouverture des préférences réseau</translation>
     </message>
     <message>
         <location filename="../modules/network/item/wirelessitem.cpp" line="348"/>
         <source>Password required to connect to &lt;font color=&quot;#faca57&quot;&gt;%1&lt;/font&gt;</source>
-        <translation>Mot de passe requis pour &lt;font color=&quot;#faca57&quot;&gt;%1&lt;/font&gt;</translation>
+        <translation type="unfinished">Mot de passe requis pour &lt;font color=&quot;#faca57&quot;&gt;%1&lt;/font&gt;</translation>
     </message>
 </context>
 <context>
@@ -135,7 +140,9 @@
     <message numerus="yes">
         <location filename="../modules/notify/notifymodel.cpp" line="189"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>Il y a %n jours</numerusform></translation>
+        <translation>
+            <numerusform>Il y a %n jours</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -163,7 +170,7 @@
     <message>
         <location filename="../modules/power/powerwidget.cpp" line="136"/>
         <source>Open Energy saver preferences</source>
-        <translation>Préférences d'alimentation</translation>
+        <translation>Préférences d&apos;alimentation</translation>
     </message>
 </context>
 <context>

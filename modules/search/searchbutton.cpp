@@ -38,7 +38,7 @@ SearchButton::SearchButton(QFrame *parent)
     layout->setContentsMargins(10, 0, 10, 0);
 
     FontLabel *label = new FontLabel;
-    label->setIcon(QChar(0xE721), FONTSIZE);
+    label->setIcon(QChar(0xE71E), FONTSIZE);
 
     layout->addWidget(label);
 

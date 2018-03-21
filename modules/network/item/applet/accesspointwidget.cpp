@@ -134,16 +134,14 @@ void AccessPointWidget::leaveEvent(QEvent *e)
 
 void AccessPointWidget::setStrengthIcon(const int strength)
 {
-    if (strength <= 20)
-        m_strengthIcon->setIcon(QChar(0xEC37), FONTSIZE);
-    else if (strength <= 40)
-        m_strengthIcon->setIcon(QChar(0xEC38), FONTSIZE);
-    else if (strength <= 60)
-        m_strengthIcon->setIcon(QChar(0xEC39), FONTSIZE);
-    else if (strength <= 80)
-        m_strengthIcon->setIcon(QChar(0xEC3A), FONTSIZE);
+    if (strength <= 25)
+        m_strengthIcon->setIcon(QChar(0xEC3C), FONTSIZE);
+    else if (strength <= 50)
+        m_strengthIcon->setIcon(QChar(0xEC3D), FONTSIZE);
+    else if (strength <= 75)
+        m_strengthIcon->setIcon(QChar(0xEC3E), FONTSIZE);
     else
-        m_strengthIcon->setIcon(QChar(0xEC3B), FONTSIZE);
+        m_strengthIcon->setIcon(QChar(0xEC3F), FONTSIZE);
 }
 
 bool AccessPointWidget::eventFilter(QObject *watched, QEvent *event)
